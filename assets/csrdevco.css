@@ -3,7 +3,7 @@
 body {
     background:linear-gradient(tobottom,#4934390%,#38343a22%,#38343a96%,#2c282d100%);
     font-size: 24px;
-    font-family: Georgia, 'Ledger', Georgia;
+    font-family: 'Roboto Slab', 'Open Sans', Georgia, 'Ledger', Georgia;
 }
 
 body p {
@@ -19,25 +19,25 @@ body p {
 }
 
 .jumbotron h1 {
-    font-size: 62px;
-    font-family: Georgia, 'Ledger', Georgia;
+    font-size: 67.5px;
+    font-family: 'Roboto Slab', 'Open Sans', Georgia, 'Ledger', Georgia;
     /*font-family:v'Ubuntu Mono',monospace;*/
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
     color: rgb(3, 71, 119);
     font-weight: 500;
-    text-shadow: 4px 4px #ccc;
+    text-shadow: 2px 2px #ccc;
 }
 
 .jumbotron h3 {
     font-size: 32px;
-    font-family: Georgia, 'Ledger', Georgia;
+    font-family: 'Roboto Slab', 'Open Sans', Georgia, 'Ledger', Georgia;
     text-align: center;
     margin: 0;
     color: rgb(83, 83, 83);
     font-weight: 500;
-    text-shadow: 3px 3px #ccc;
+    text-shadow: 2px 2px #ccc;
 }
 
 .jumbotron p {
@@ -49,7 +49,7 @@ body p {
 }
 
 h1 {
-	font-family: Georgia, 'Ledger', Georgia;
+	font-family: 'Roboto Slab', 'Open Sans', Georgia, 'Ledger', Georgia;
 }
 
 .navbar-brand img {
@@ -80,7 +80,7 @@ h1 {
 }
 
 .black {
-	color: #000;
+	color: #666;
 }
 
 .well {
@@ -97,7 +97,7 @@ h1 {
     line-height: 122px;
     width: 1200px;
     color: rgb(65, 150, 65);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Slab', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .justify {
     text-align:justify;
@@ -112,21 +112,21 @@ h1 {
         /* styles for browsers larger than 960px; */
         h1 {
             font-size: 48px;
-            text-shadow: 3px 3px #ccc;
+            text-shadow: 2px 2px #ccc;
         }
     }
     @media only screen and (min-width:1440px){
         /* styles for browsers larger than 1440px; */
         h1 {
             font-size: 48px;
-            text-shadow: 3px 3px #ccc;
+            text-shadow: 2px 2px #ccc;
         }
     }
     @media only screen and (min-width:2000px) {
         /* for sumo sized (mac) screens */
         h1 {
             font-size: 72px;
-            text-shadow: 3px 3px #ccc;
+            text-shadow: 2px 2px #ccc;
         }
     }
     @media only screen and (max-device-width:480px){
