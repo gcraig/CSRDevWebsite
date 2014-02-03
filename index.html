@@ -68,7 +68,7 @@
         </div>
 
         
-    <div class="container1 ">
+    <div class="container">
 
         <!-- main title -->
         <div class="row"> 
@@ -77,10 +77,14 @@
                     <img class="logo" src="assets/logo2.png">
                 </div>
                 <div class="col-md-9">
-                    <h1>Expert Services<br>Professional Support</h1>
-                    <span class="subheading">Web site development and Computer repair</span>
+                    <h1>Expert Web Sites<br>Professional Support</h1>
+                    <span class="subheading">
+                        See our list of services <i class="fa fa-arrow-right blue"></i> 
+                        <a type="button" id="services2" class="btn btn-success btn-lg" href="#services">
+                            <i class="fa fa-plus-square"></i> Services
+                        </a>
+                    </span>
                 </div>
-            <!-- <p><a href="#" class="btn btn-primary btn-lg" role="button">Contact Us</a></p> -->
             </div>
         </div> 
         
@@ -215,6 +219,9 @@
                 <i class="fa fa-share"></i> 
                 <a href="emailto:sales@csrdevco.com">Email Sales</a>
             </span>
+            <p>
+            <i class="fa fa-arrow-up"></i> 
+            <a href="#">Back to Top</a>
         </div>
         
         <div class="row spacer">
@@ -279,6 +286,10 @@
           Servicing Will County, and Greater Chicagoland Area, Illinois, U.S.
         </div>
 
+        <p>
+        <i class="fa fa-arrow-up"></i> 
+        <a href="#">Back to Top</a>
+
     </div> <!-- /container -->
 
 
@@ -298,6 +309,13 @@
                }, 300, function(){});
          });
          
+         $("#services2").on('click', function(e) {
+             e.preventDefault();
+             $('html, body').animate({
+                 scrollTop: $('#services_anchr').offset().top
+               }, 300, function(){});
+         });
+                  
          $("#contact").on('click', function(e) {
              e.preventDefault();
              $('html, body').animate({
