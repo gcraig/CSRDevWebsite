@@ -1,0 +1,57 @@
+﻿
+/* screen resolution */
+/* ----------------- */
+/* leeched from stackoverflow; thank you will credit you asap */
+
+    @media only screen and (min-width:960px){
+        /* styles for browsers larger than 960px; */
+        h1 {
+            font-size: 48px;
+            /*text-shadow: 2px 2px #ccc;*/
+        }
+    }
+    @media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+        h1 {
+            font-size: 48px;
+            /*text-shadow: 2px 2px #ccc;*/
+        }
+    }
+    @media only screen and (min-width:2000px) {
+        /* for sumo sized (mac) screens */
+        h1 {
+            font-size: 72px;
+            /*text-shadow: 2px 2px #ccc;*/
+        }
+    }
+    @media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+        h1 {
+            font-size: 36px;
+            /*text-shadow: 2px 2px #ccc;*/
+        }       
+    }
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+        h1 {
+            font-size: 42px;
+            /*text-shadow: 2px 2px #ccc;*/
+        }
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+        h1 {
+            font-size: 42px;
+            text-shadow: 2px 2px #ccc;
+        }
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+        h1 {
+            font-size: 42px;
+            text-shadow: 2px 2px #ccc;
+        }      
+    }
+    
