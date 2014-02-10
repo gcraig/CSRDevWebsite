@@ -38,7 +38,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><img src="assets/logo2.png"><strong><span class="green">CSR</span><span class="blue">Devlopment,</span></strong> co.</a>
+              <a class="navbar-brand" href="#"><img src="assets/logo2.png"><strong><span class="green">CSR</span><span class="blue">Devlopment,</span></strong> Co.</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
@@ -61,21 +61,39 @@
                     <img class="logo" src="assets/logo2.png">
                 </div>
                 <div class="col-md-9">
-                    <h1>Expert Web Sites<br>Professional Support</h1>
+                    <h1><span class="green">CSR</span><span class="blue">Development</span>, <span class="dark">Co.</span></h1>
                     <span class="subheading">
-                        See our list of services <!--<i class="fa fa-arrow-right blue"></i> -->
-                        <a type="button" id="services2" class="btn btn-success btn-lg" href="#services">
+                        Expert Web Sites, Professional Support<br>
+                        <a type="button" id="aboutus" class="btn btn-success btn-lg btn-space" href="#aboutus">
+                            <!--<i class="fa fa-plus-square"></i>--> About Us
+                        </a> &nbsp;Learn More<!--<i class="fa fa-arrow-right blue"></i> -->
+                        <br>
+                        <a type="button" id="services2" class="btn btn-success btn-lg btn-space" href="#services">
                             <!--<i class="fa fa-plus-square"></i>--> Services
-                        </a>
+                        </a> &nbsp;See our list of services <!--<i class="fa fa-arrow-right blue"></i> -->
+                        <br>
+                       <!--  <a type="button" id="support" class="btn btn-success btn-lg btn-space" href="#support">
+                            <i class="fa fa-plus-square"></i>Support
+                        </a> Support and Contact Us -->
                     </span>
                 </div>
             </div>
         </div> 
         
-        <div class="row spacer2">
+        
+        <div class="row spacer">
         </div>
         
+
         <!-- column headers / glyphs -->
+        <a id="aboutus_anchr" class="anchr" name="aboutus"></a>
+        <br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>About Us</h1>
+            </div>
+        </div>
+
         <div class="row">            
             <div class="col-md-3 col-head">
                 <center>
@@ -95,7 +113,6 @@
                 <span class="glyphicon glyphicon-4x glyphicon-wrench dark"></span>
             </div>            
         </div>
-
         
         <!-- column content -->
         <div class="row">
@@ -118,12 +135,24 @@
             </div>
         </div>
 
+            <br>
+            
+        <div class="row">
+            <span class="subheading">For all inquiries: 
+                <i class="fa fa-share"></i> 
+                <a href="emailto:sales@csrdevco.com">Email Sales</a>
+            </span>
+            <p>
+            <i class="fa fa-arrow-up"></i> 
+            <a href="#">Back to Top</a>
+        </div>
         
         <div class="row spacer">
         </div>
         
         
         <a id="services_anchr" class="anchr" name="services"></a>
+        <br><br>
         <div class="row">
             <div class="col-md-12">
                 <h1>Services</h1>
@@ -222,6 +251,7 @@
             
             <div class="col-md-4">
                 <a id="support_anchr" class="anchr" name="support"></a>
+                <br><br>
                 <div class="page-header">
                     <h1>Customer Support</h1>
                 </div>
@@ -291,6 +321,14 @@
       $( document ).ready(function() {
 
          // FIXME: 1 button click handler
+         
+         
+         $("#aboutus").on('click', function(e) {
+             e.preventDefault();
+             $('html, body').animate({
+                 scrollTop: $('#aboutus_anchr').offset().top
+               }, 300, function(){});
+         });
          
          $("#services").on('click', function(e) {
              e.preventDefault();

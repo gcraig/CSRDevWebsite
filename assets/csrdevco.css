@@ -97,6 +97,10 @@ body {
 	padding: 0;
 }
 
+.btn-space {
+    margin-left: 20px;
+}
+
 .spacer {
     margin-top: 300px;
     margin-bottom: 140px;
@@ -104,6 +108,8 @@ body {
 
 .spacer2 {
     margin-bottom: 50px;
+    padding-top: 0px;
+    border-top: 1px solid #eee;
 }
 
 
@@ -111,9 +117,6 @@ body {
     border-radius: 0;
 }
 
-.anchr {
-    padding-top: 20px;
-}
     
 .page-header2 {
 	margin-top: 300px;
