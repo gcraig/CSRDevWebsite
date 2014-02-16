@@ -1,10 +1,11 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.75;
+    /*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'ABeeZee', 'Open Sans', sans-serif;
+	line-height: 1.75;
     color: #333;
     background-color: #fff;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     padding: 80px;
 }
@@ -35,8 +36,9 @@ body {
     font-weight: 400;
     margin: 0;
     padding-bottom: 5px;
-    font-family: 'Montserrat', sans-serif;
-    color: #003F78;
+    /*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'ABeeZee', 'Open Sans', sans-serif;
+	color: #003F78;
     text-shadow: 2px 2px #aaa;
 }
 
