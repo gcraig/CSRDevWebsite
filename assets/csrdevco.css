@@ -53,6 +53,10 @@ body {
     color: rgb(160, 160, 160);
 }
 
+.twitter-timeline {
+    font-size: 32px;
+}
+
 .jumbotron p {
     padding-bottom: 10px;
  }

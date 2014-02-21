@@ -67,9 +67,8 @@ img, embed, object, video { max-width: 100%; }
 /* 3. CORE TYPOGRAPHY
 ----------------------------------------------------------------------------------------*/
 body {
-  /*font-family: Georgia, "Times New Roman", serif;*/
+  font-family: Georgia, "Times New Roman", serif;
   /*font-family: 'ABeeZee', 'Open Sans', sans-serif;*/
-  font-family: "Proxima Nova", ProximaNova, "Helvetica Neue", Segoe, "Segoe UI", Frutiger, "Nimbus Sans L", "Liberation Sans", "Open Sans", FreeSans, sans-serif; 
   font-size: 1em;
   line-height: 1.618em;
   color: #333;

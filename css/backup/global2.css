@@ -1,0 +1,355 @@
+/* RESET
+----------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+  
+/* ROOT
+----------------------------------------------------------------------------------------*/
+html {
+  overflow-y: scroll;
+  background: #FFF;
+}
+
+.container {
+    padding: 0.809em;
+    max-width:30em;
+    margin:auto;
+	text-align: left;
+}
+
+header { background: #FFF; }
+#summary { background: #E5E9E2; } 
+#examples { background: #CAD2C4; }
+#comments { background: #E5E9E2; } 
+footer { background: #333; }
+    
+aside { width: 100%; }
+
+img { max-width:100%; max-height:100%; }
+
+
+/* CORE TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+body {
+  font-family: ff-tisa-web-pro,serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.2;
+  color: #333;
+}
+
+h1, h2 { font-family: ff-tisa-web-pro, serif; font-weight: 400; }
+h3 { font-family: myriad-pro, Helvetica, Arial, Sans-Serif; font-weight:700; }
+h4 {}
+h5 { font-family: myriad-pro, Helvetica, Arial, Sans-Serif; font-weight:700; }
+h6 {}
+
+h1, h2, h3, h4, h5, h6 { margin-bottom: 0.809em; }
+
+p, ul, ol, dl, blockquote {
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom:1.618em;
+    max-width:30em;
+}
+    
+ul { list-style-type: disc; margin-left: 1.618em; }
+ol { list-style-type: decimal; margin-left: 1.618em; }
+
+b, strong { font-weight: 700; }
+i, em { font-style: italic; }
+small { font-size: 1em; }
+
+/* LINKS
+----------------------------------------------------------------------------------------*/
+a, a:visited {
+  outline: none;
+  color: #439BBD;
+  text-decoration: underline;
+  }
+  
+a:hover {
+  outline: none;
+  text-decoration:none;
+  }
+  
+a:active, a:focus { outline: none; }
+
+a.button {
+   border-top: 1px solid #96d1f8;
+   background: #429abd;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6fb5ce), to(#429abd));
+   background: -moz-linear-gradient(top, #6fb5ce, #429abd);
+   padding: 8.5px 17px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(51,51,51,1) 0 1px 0;
+   -moz-box-shadow: rgba(51,51,51,1) 0 1px 0;
+   box-shadow: rgba(51,51,51,1) 0 1px 0;
+   text-shadow: rgba(51,51,51,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: myriad-pro, Helvetica, Arial, Sans-Serif;
+   letter-spacing: 2px;
+   text-decoration: none;
+   vertical-align: middle;
+   text-transform: uppercase;   
+   }
+   
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+   
+.button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+   
+a.github {
+  display:block;
+  margin: 1em 0;
+  font-size: 14px;
+}
+
+div.typecast-header{
+  width: 100%;  
+  background-color: #333;
+  overflow: hidden;
+  padding:0.8em 0em;
+  display: table;
+}
+
+div.typecast-header h1{
+  font-size: 1em;
+
+}
+
+
+div.typecast-header h1, 
+div.typecast-header ul,
+div.typecast-header p{
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  
+}
+
+div.typecast-header h1{
+  margin-left: 1em;
+}
+
+div.typecast-header h1 img{
+  max-width: 110%;
+
+}
+
+div.typecast-header ul{
+
+  text-align: center;
+
+ 
+}
+
+div.typecast-header ul li{
+  display: inline;
+
+}
+
+div.typecast-header ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-family: myriad-pro, Helvetica, Arial, Sans-Serif;
+  margin-right: 0.5em;
+ 
+
+  font-size: 14px;
+  letter-spacing: 1px;
+
+}
+
+
+div.typecast-header ul li:last-child a{
+  margin-right: 0;
+}
+
+
+
+div.typecast-header ul li a.active,div.typecast-header ul li a:hover {
+  color: #aaa;
+
+}
+
+div.typecast-header p{
+  color: #aaa;
+  font-style: italic;
+  font-size: 15px;
+  text-align: right;
+  padding-right: 1em;
+ 
+}
+
+div.typecast-header p a{
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+div.typecast-header h1{
+  padding-left: 1em;
+}
+
+div.typecast-header h1 img{
+  position: relative;
+  top: 2px;
+}
+
+span.explain{
+  display:none;
+}
+
+div.typecast-header ul{
+  display: none;
+}
+
+/* GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+body {}
+
+/* Header */
+header .container { text-align: center; }
+header p { color: #666; font-family: myriad-pro, Helvetica, Arial, Sans-Serif; font-weight:400; }
+header h1, header h2 { color: #2B2C2D; }
+
+/* Summary */
+#summary h3 { font-family: myriad-pro, Helvetica, Arial, Sans-Serif; font-weight:700; text-transform: uppercase; }
+
+/* Examples */
+#examples h2 { font-family: ff-tisa-web-pro, serif; font-weight: 400; font-size: 2.618em; text-align: center; }
+#examples h3 { font-family: myriad-pro, Helvetica, Arial, Sans-Serif; font-weight:700; text-transform: uppercase; letter-spacing: 0.12em; margin: 1em 0; }
+#examples .screenshots { position: relative; }
+#examples .screenshots img { float:left; margin-bottom:1em; }
+
+#examples .screenshots .daddy-bear { max-width:24.065em; width:48.125%; clear: both; }
+#examples .screenshots .mummy-bear { max-width:15.625em; width:31.25%; }
+#examples .screenshots .baby-bear { margin-right:0; max-width:6.5626em; width:13.125% }
+
+/* Comments */
+#comments .container { padding-top: 2em;}
+#comments #comments-holder, #comments aside { margin-bottom:1em; }
+#comments h3 { text-transform: uppercase; letter-spacing:0.12em; }
+#comments h3 a { color: #333; }
+
+#comments aside #roadmap { background: #D8DED3; padding:1em; font-family: ff-tisa-web-pro, serif; font-weight: 400; }
+#comments aside #roadmap ul { list-style: none; margin:0; padding:0; }
+#comments aside #roadmap ul li { border-bottom: 1px solid #AFB5AB; margin-bottom:1em; }
+#comments aside #roadmap ul li:last-child { border-bottom: none; margin-bottom: 0; }
+#comments aside #roadmap ul h4 { margin:0; font-weight: 700; }
+#comments aside #roadmap ul p { font-size: 0.875em; }
+
+#comments #dsq-content, .dsq-comment, .dsq-comment-body, ul#dsq-comments li, .dsq-moderator, .dsq-clearfix, .dsq-comment-is-parent { background: #E5E9E2 !important; }
+#comments ul#dsq-comments { max-width: 100%; background: #E5E9E2 !important; }
+#comments #disqus_thread a, a.dsq-brlink { color: #7a7c79;}
+.dsq-comment-meta a, .dsq-comment-actions a { opacity: 1 !important; }
+
+/* Footer */
+footer #twitter { margin: 1em auto; text-align:center; }
+footer { font-family: ff-tisa-web-pro, Georgia, serif; font-weight:400; color:#FFF; }
+footer p { font-family: ff-tisa-web-pro, Georgia, serif; font-weight:400; color:#FFF; }
+footer img { margin-bottom:1em; }
+footer h2 { font-family: ff-tisa-web-pro, Georgia, serif; font-weight: 400; color: #FFF; }
+footer h3 { font-family: myriad-pro, Helvetica, Arial, Sans-Serif; font-weight:700; text-transform: uppercase; letter-spacing: 0.12em; }
+
+footer a, footer a:visited { color: #FFD555; border-bottom: 1px solid #FFD555; text-decoration: none; }
+footer a:hover { border-bottom: 1px solid transparent; }
+
+footer #subscribe-form { text-align:right; }
+footer #subscribe-form input[type="text"],
+footer #subscribe-form input[type="email"] { border: 1px solid #999; background: #333; padding: 2px 3px; font-size: 13px; font-family: ff-tisa-web-pro, Georgia, serif; font-weight:400; color: #FFF; height: 1.8em; margin-bottom:0.5em; width:14em; }
+footer #subscribe-form small { color: #999; font-size:small; }
+
+footer #subscribe-form button,
+footer #subscribe-form input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	background: #ddd url(images/button.png) repeat-x;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
+	background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+	border: 1px solid;
+	border-color: #ddd #bbb #999;
+	cursor: pointer;
+	color: #333;
+	font-size: 12px;
+	font-family: ff-tisa-web-pro, Georgia, serif;
+	font-weight: 400;
+	line-height: 1.2;
+	outline: 0;
+	overflow: visible;
+	padding: 3px 10px 4px;
+	text-shadow: #fff 0 1px 1px;
+	width: auto;
+
+	/* IE7 */
+	*padding-top: 2px;
+	*padding-bottom: 0px;
+}
+
+
+/* CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+----------------------------------------------------------------------------------------*/
+header h1 { font-size: 2.618em; }
+header h2 { font-size: 1.618em; }
+
+.column {
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#examples .screenshots h3 { margin-bottom:0.5em; }
+#examples .screenshots a.visit-the-site { display: block; margin-bottom:0.5em; }
+#examples .screenshots img { margin-right:0.5em; }
+
+#comments-holder h3 span.see-all { display: block; font-size: 0.875em; margin-top:1em; }
+
+footer .container { text-align: center; }
+footer h2 { font-size:1.618em; margin-bottom:1em; }
+footer #twitter { width: 300px; }
+footer .column { width: 15.333333333em; }
+
+/* BROWSER AND NON-SEMANTIC STUFF
+----------------------------------------------------------------------------------------*/
+.cf:before, .cf:after { content:""; display:block; }
+.cf:after { clear:both; }
+.ie6 .cf { zoom: 1 }
+
+.floatright { float:right;}
+.floatleft {float:left; }
+.clearboth { clear:both; }

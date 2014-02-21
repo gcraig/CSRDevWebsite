@@ -19,9 +19,13 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link href="/link/to/favicon.ico" rel="shortcut icon">
         <link href="/link/to/apple-touch-icon.png" rel="apple-touch-icon"><!-- <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'> -->
+
         <!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
         <link href="css/global.css" media="all" rel="stylesheet">
-        <link href="css/layout.css" media="all and (min-width: 33.236em)" rel="stylesheet"><!--  <link rel="stylesheet" href="css/global2.css" media="all">
+        <link href="css/layout.css" media="all and (min-width: 33.236em)" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!--  <link rel="stylesheet" href="css/global2.css" media="all">
       <link rel="stylesheet" href="css/layout2.css" media="all and (min-width: 33.236em)">
  --><!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
         <!--[if (lt IE 9) & (!IEMobile)]>
@@ -31,80 +35,146 @@
         <script src="js/libs/modernizr-1.7.min.js"></script>
         <style>
 
-
-        .c1 { color: #ff9933; text-shadow: 2px 2px #333;}
-        .c2 { color: #666;    text-shadow: 2px 2px #333;}
-        h1.c1 { border: 2px solid red; }
+          .c1 { color: #ff9933; text-shadow: 2px 2px #333;}
+          .c2 { color: #666;    text-shadow: 2px 2px #aa6611;}
+          .c3 { color: #000;    text-shadow: 2px 2px #aa6611;}
 
         </style>
 </head>
 
 <body>
-        <!--
-  <header>
-    <div class="typecast-header">
-      <h1>
-        <img src="images/header-logo2-mini.png">
-        CSR Development, Co.
-      </h1> 
-      <ul>
-        <li><a href="#" class="active">Overview</a></li>
-        <li><a href="/article/">Article</a></li>
-        <li><a href="/demo/">Demo</a></li>
-        <li><a href="http://bit.ly/pAxlvA">Download</a></li>
-      </ul>
-    </div>
-  </header>
 
-    <div class="container">
-            <font class="c1">CSR</font> <font class="c2">Development</font>, Co. 
-        <span>Expert Software, Professional Support</span>
-  
-      <h1>The Goldilocks Approach <span>To Responsive Web Design</span></h1>
-      <h2>A good starting point for design that takes device resolution out of the equation</h2>
-      <p>Download our boilerplate CSS and HTML files based on current best practices that will give you more time to focus on what is unique to each project.</p>
-      <p><a href="http://bit.ly/pAxlvA" title="Download Zip (35k)" class="button">Download Zip (35k)</a><a href="http://github.com/designbyfront/The-Goldilocks-Approach" class="github">Or get it on Github</a></p>
-    
-    <p>You might also like <a href="http://responsive.is">Responsive.is</a>, a tool for to demoing RWD.</p>
-    </div>
-  </header>
--->
 
-        <div class="cf" id="container">
-                
+
+
+              <!-- #wrapper { width: 100%; overflow: hidden; position: relative; } -->
+
+ 
+              <div class="cf" id="container">
                 <article>
-                        <div class="cf" id="main">
-                                <header>
-                                        <h2><img alt="CSR" id="header-logo" src="images/header-logo2-mini.png"></h2>
-                                        <h1><font class="c1">CSR</font> <font class="c2">Development</font>, Co. <span>Expert Software, Professional Support</span></h1>
-                                </header>
-
-
-                                <div class="column">
-                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </div>
-                                
-                                <div class="column">
-                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </div>
-
-
-                                <footer class="cf">
-                                        <p><a href='http://www.designbyfront.com'><img alt="Front" id="footer-logo" src="images/example/footer-logo.png"></a></p>
-                                        <p>Front is an award-winning web strategy and design studio committed to making the web a better place.</p>
-                                </footer>
-                        </div><!-- /main -->
+                  <div class="cf" id="main">
+                    <header>
+                      <h2><img alt="CSR" id="header-logo" src="images/header-logo2-mini.png"></h2>
+                      <h1><font class="c1">CSR</font> <font class="c3">Development</font><font class="c3">, Co.</font> <span>Expert Software, Professional Support</span></h1>
+                    </header>
+                  </div><!-- /main -->
                 </article>
+
+              </div>
+
+
+
+                    <div class="neader">
+                    <h2><img alt="CSR" id="header-logo" src="images/header-logo2-mini.png"></h2>
+                    <h1><font class="c1">CSR</font> <font class="c3">Development</font><font class="c3">, Co.</font> 
+                      <span>Expert Software, Professional Support</span>
+                    </h1>
+                  </div>
+
+
+
+                <div id="wrapper">
+                  
+                  <div id="header-div">fd
+                    <!-- <h2><img alt="CSR" id="header-logo" src="images/header-logo2-mini.png"></h2>
+                      dff<h1><font class="c1">CSR</font> <font class="c3">Development</font><font class="c3">, Co.</font> <span>Expert Software, Professional Support</span></h1> -->
+                  </div>   
+
+
+                   <div id="menu-div">
+                       <div id="menu">
+                        <ul>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        </div> 
+                  </div>
+                  
+                  <div id="jumbo-div"> 
+                        For all inquiries: 
+                        <i class="fa fa-mail"></i> 
+                        <a href="emailto:sales@csrdevco.com">Email Sales</a>
+                  </div>
+
+
+                  <div id="left-column"> 
+                      <div class="column">
+                        <center>
+                         <i class="fa fa-4x fa-desktop dark"></i>
+                        </center>
+                        <p>
+                          We <strong>specialize</strong> in Web Site development, custom 
+                          applications and even Android mobile apps. 
+                        </p>
+                      </div>
+                      <div class="column">
+                        <center>
+                          <i class="fa fa-4x fa-cloud dark"></i>
+                        </center>                          
+                        <p>
+                          We can backup your data for you, and show you how to use 
+                          <span class="badge">free</span>, modern cloud storage. Never
+                          lose an important file again.
+                        </p>
+                      </div>
+                  </div>   
+
+
+                  <div id="right-column">
+                      <div class="column">
+                        <center>
+                          <i class="fa fa-4x fa-hdd-o dark"></i>
+                        </center>
+                        <p>
+                          We can <span class="badge">rid</span> your computer of any
+                          bad software (malware) and verify it with a comprehensive security check.
+                        </p>
+                      </div>
+                      <div class="column">
+                        <center>
+                          <i class="fa fa-4x fa-wrench dark"></i>
+                        </center>
+                        <p>
+                          Looking to fix or install broken components? We're proficient in Computer Repair.
+                        </p>
+                      </div>
+                  </div>   
+                  
+<!-- 
+                  <div class="site-footer" id="footer">
+                    <p class="footmenu">
+                    <a target="_ddg-about" href="https://duckduckgo.com/about">About DuckDuckGo</a>
+                    <a target="_ddg-privacy" href="https://duckduckgo.com/privacy">Privacy Policy</a>
+                    <a target="_ddg-contact" href="https://duckduckgo.com/feedback">Contact Us</a>
+                    </h6>
+                    </p>
+                    <p class="copyright">&copy; <a href="https://duckduckgo.com" target="ddg">DuckDuckGo</a>. All Rights Reserved.</p>
+                  </div>
+
+ --> 
+
+                  <div id="footer-div"> 
+                      Copyright 2014. CSR Development, Company. All rights reserved.
+                      Servicing Will County, and Greater Chicagoland Area, Illinois, U.S. 
+                  </div>
+
+
+                </div>
+
+                       
+
+
+
+
+
+ <!-- fa-tablet -->
+
+
+
+
+
+
 <!--
                 <div id="summary">
                         <div class="container cf">
