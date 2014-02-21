@@ -1,374 +1,292 @@
-﻿<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Computer Repair and Web Site Development">
-    <meta name="author" content=""> 
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-    <link rel="icon" type="image/png" href="assets/logo2.png">
-  
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    
+
     <title>CSR Development, Co.</title>
+    <meta name="description" content="CSR Development, Co.">
+    <meta name="author" content="George Craig">
+    <p>Custom software development</p>
+
+    <link rel="stylesheet" href="css/toast.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" >
     
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
-   
-    <!-- Bootstrap theme -->
-    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="dist/css/bootstrap-docs.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- pure -->
+    <!--<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/buttons-min.css">
+ 	
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600"></link>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=ABeeZee"></link>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700"></link>
+    
+    <!--
+    <link href="assets/ico/favicon.png" rel="shortcut icon"></link>
+    <link href="assets/logo2.png" type="image/png" rel="icon"></link>
+    -->
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <style>
+        .orange {
+            background: rgb(223, 117, 20);
+            color: #fff;
+            font-weight: bolder;
+        }
+        .blue {
+            background: rgb(51, 85, 186);
+            color: #fff;
+            font-weight: bolder;
+            margin-left: 20px;
+        }
+    </style>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/theme.css" rel="stylesheet">
-    <link href="assets/csrdevco.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
+<body>
 
-        <!-- navbar -->
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="assets/logo2.png"><strong><span class="green">CSR</span><span class="blue">Devlopment,</span></strong> Co.</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a id="services" href="#services">Services</a></li>
-                <li><a id="support" href="#support">Support</a></li>
-                <li><a id="contact" href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
 
-        
-    <div class="container">
 
-        <!-- main title -->
-        <div class="row"> 
-            <div class="jumbotron">
-                <div class="col-md-3">
-                    <img class="logo" src="assets/logo2.png">
-                </div>
-                <div class="col-md-9">
-                    <h1><span class="green">CSR</span><span class="blue">Development</span>, <span class="dark">Co.</span></h1>
-                    <span class="subheading">
-                        Expert Web Sites, Professional Support<br>
-                        <a type="button" id="aboutus" class="btn btn-success btn-lg btn-space" href="#aboutus">
-                            <!--<i class="fa fa-plus-square"></i>--> About Us
-                        </a> &nbsp;Learn More<!--<i class="fa fa-arrow-right blue"></i> -->
-                        <br>
-                        <a type="button" id="services2" class="btn btn-success btn-lg btn-space" href="#services">
-                            <!--<i class="fa fa-plus-square"></i>--> Services
-                        </a> &nbsp;See our list of services <!--<i class="fa fa-arrow-right blue"></i> -->
-                        <br>
-                       <!--  <a type="button" id="support" class="btn btn-success btn-lg btn-space" href="#support">
-                            <i class="fa fa-plus-square"></i>Support
-                        </a> Support and Contact Us -->
-                    </span>
-                </div>
-            </div>
-        </div> 
-        
-        
-        <div class="row spacer">
-        </div>
+
+
+            
+<div class="container">
+
+    <div class="grid">
+
+        <div class="unit span-grid header">
+            <h3><img alt="CSR" src="images/header-logo3-mini.png"></h3>
+            <h1><span class="csr">CSR</span> <span class="dev">Development</span><span class="co">, Co.</span></h1>
+            <h2>Expert Software, Professional Support</h2>            
+            <button class="button-primary pure-button orange" id="services">Services and Pricing</button>
+        </div>            
+
+    </div> <!-- /grid -->
+
+</div> <!-- /container -->
         
 
-        <!-- column headers / glyphs -->
-        <a id="aboutus_anchr" class="anchr" name="aboutus"></a>
-        <br><br>
-        <div class="row">
-            <div class="col-md-12">
-                <h1>About Us</h1>
-            </div>
-        </div>
 
-        <div class="row">            
-            <div class="col-md-3 col-head">
-                <center>
-                    <i class="fa fa-4x fa-desktop dark"></i>
-                </center>
-            </div>     
-            <div class="col-md-3 col-head">
-                <center>
-                    <span class="glyphicon glyphicon-4x glyphicon-cloud lightblue"></span>
-                    <i class="fa fa-3x fa-cloud lightblue"></i>
-                </center>
-            </div>            
-            <div class="col-md-3 col-head">
-                <span class="glyphicon glyphicon-4x glyphicon-hdd dark center"></span>
-            </div>            
-            <div class="col-md-3 col-head">
-                <span class="glyphicon glyphicon-4x glyphicon-wrench dark"></span>
-            </div>            
+
+
+
+
+        
+<div class="container">
+
+    <div class="grid">
+
+        <div class="unit span-grid header">
+            <h2 class="section csr1">What we can do for you.</h2>            
         </div>
         
-        <!-- column content -->
-        <div class="row">
-            <div class="col-md-3 left col">
-                We <strong>specialize</strong> in Web Site development, custom 
-                applications and even Android mobile apps. <br>
-                <!--<center><i class="fa fa-2x fa-android green"></i></center>-->
-            </div>
-            <div class="col-md-3 left col">
-                We can backup your data for you, and show you how to use 
-                <span class="badge">free</span>, modern cloud storage. Never
-                lose an important file again.
-            </div>
-            <div class="col-md-3 left col">
-                We can <span class="badge">rid</span> your computer of any
-                bad software (malware) and protect it with a comprehensive security check.
-            </div>
-            <div class="col-md-3 left col">
-                Looking to fix or install broken components? We're proficient in Computer Repair.
-            </div>
+        <div class="unit one-of-four">
+            <center>
+            <i class="fa fa-3x fa-desktop gray"></i>
+            <i class="fa fa-3x fa-tablet gray"></i>
+            </center>
+            <p><p>
+            We <strong>specialize</strong> in web site development, custom 
+            applications and even Android mobile apps. <br>
+
+        </div>
+        <div class="unit one-of-four">
+            <center>
+            <i class="fa fa-3x fa-cloud gray"></i>
+            </center>
+            <p><p>
+            We can backup your data for you, and show you how to use 
+            <span class="badge">free</span>, modern cloud storage. Never
+            lose an important file again.
+        </div>
+        <div class="unit one-of-four">
+            <center>
+            <i class="fa fa-3x fa-hdd-o gray"></i>
+            </center>
+            <p><p>
+            We can <span class="badge">rid</span> your computer of any
+            bad software (malware) and protect it with a comprehensive security check.
+        </div>
+        <div class="unit one-of-four">
+            <center>
+            <i class="fa fa-3x fa-wrench gray"></i>
+            </center>
+            <p><p>
+            Looking to fix or install broken components? We're proficient in computer repair.
         </div>
 
+    </div> <!-- /grid -->
+
+</div> <!-- /container -->        
+
+       
+
+
+
+
+
+
+<div class="container banner">
+
+    <div class="grid">
+    
+        <div class="unit one-of-three">
+        </div>        
+        <div class="unit one-of-three header">
+            <h2 class="section csr1"><i class="fa fa-envelope gray"></i> Contact Us</h2>
+        </div>
+        <div class="unit one-of-three">
+        </div>
+        
+        <div class="unit one-of-three">
+        </div>
+        <div class="unit one-of-three justify">
+            Tell us what you are looking for, how we may help you in your projects
+            or business. We can start from a clean slate or integrate with your 
+            existing products or services.
+            <p><p>
+            <i class="fa fa-envelope gray"></i><strong><a class="contact" href="mailto:sales@csrdevco.com"> sales@csrdevco.com</a></strong>
             <br>
-            
-        <div class="row">
-            <span class="subheading">For all inquiries: 
-                <i class="fa fa-share"></i> 
-                <a href="emailto:sales@csrdevco.com">Email Sales</a>
-            </span>
-            <p>
-            <i class="fa fa-arrow-up"></i> 
-            <a href="#">Back to Top</a>
+            <i class="fa fa-phone gray"></i> <strong>815-293-7416</strong>
+        </div>
+        <div class="unit one-of-three">
         </div>
         
-        <div class="row spacer">
-        </div>
-        
-        
-        <a id="services_anchr" class="anchr" name="services"></a>
-        <br><br>
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Services</h1>
-            </div>
-        </div>
-        
-      <div class="row">
+    </div> <!-- /grid -->
 
-        <div class="col-md-4">
-          <div class="panel panel-success">
-            
-            <div class="panel-heading">
-              <h3 class="panel-title"><i class="fa fa-desktop"></i> Web Sites</h3>
-            </div>
-            
-            <div class="panel-body">
-              <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Web Hosting</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> HTML 5, Javascript</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> E-commerce</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Java, Ruby, Python</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> PaaS: GAE</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> SEO</li>
+</div> <!-- /container -->        
+
+
+
+       
+        
+        
+
+
+
+<div class="container">
+
+    <div class="grid">
+    
+    <a name="services"/>
+    
+        <div class="unit span-grid header">
+            <h2 class="section csr1">Services and Pricing</h2>
+        </div>
+        <div class="unit one-of-three">
+            <h3><!--<i class="fa fa-desktop"></i>--> Web Sites</h3>
+              <ul class="s">
+                <li class="check green">Web Hosting
+                <li class="check green">HTML 5, Javascript
+                <li class="check green">E-commerce
+                <li class="check green">Java, Python, Ruby
+                <li class="check green">PaaS: GAE, OpenShift
+                <li class="check green">DB: SQL, NoSQL
               </ul>
-              <div>
-                <center><strong class="price">$50</strong> USD/hr or Per Contract</center>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title"><i class="fa fa-wrench"></i> Computer Repair</h3>
-            </div>
-            <div class="panel-body">
-              <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-check-circle green"></i> Data Backup</li>
-                <li class="list-group-item"><i class="fa fa-check-circle green"></i> Password Resets</li>
-                <li class="list-group-item"><i class="fa fa-check-circle green"></i> Data Recovery</li>
-                <li class="list-group-item"><i class="fa fa-check-circle green"></i> Systems Build</li>
-                <li class="list-group-item"><i class="fa fa-check-circle green"></i> System Optimization</li>
-                <li class="list-group-item"><i class="fa fa-check-circle green"></i> Operating Systems</li>
+              <span class="price">$50</span> usd/hr or <strong>contract</strong>
+        </div>        
+        <div class="unit one-of-three">
+              <h3><!--<i class="fa fa-wrench"></i>--> Computer Repair</h3>
+              <ul class="s">
+                <li class="check green">Data Backup
+                <li class="check green">Password Resets
+                <li class="check green">Data Recovery
+                <li class="check green">Systems Build
+                <li class="check green">System Optimization
+                <li class="check green">Operating Systems
               </ul>
-              <div>
-                <center>
-                    <a id="priceSheet" type="button" class="btn btn-success btn-lg" href="assets/ps/prices-computer.pdf">
-                        <i class="fa fa-dollar"></i> Price Sheet
-                    </a>
-                </center>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h3 class="panel-title"><i class="fa fa-pencil"></i> Resume Writing</h3>
-            </div>
-            <div class="panel-body">
-              <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Typeset</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Multiple Drafts</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Multiple Versions</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Cover Letters</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Proofreading</li>
-                <li class="list-group-item"><i class="fa fa-check-circle blue"></i> Word, PDF versions</li>
-              </ul>
-              <div>
-                <center><strong class="price">$30 - $50</strong> USD/hr</center>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-   
-        <div class="row">
-            <span class="subheading">For all inquiries: 
-                <i class="fa fa-share"></i> 
-                <a href="emailto:sales@csrdevco.com">Email Sales</a>
-            </span>
-            <p>
-            <i class="fa fa-arrow-up"></i> 
-            <a href="#">Back to Top</a>
-        </div>
-        
-        <div class="row spacer">
-        </div>
-
-        <div class="row">
-            
-            <div class="col-md-1"></div>
-            
-            <div class="col-md-4">
-                <a id="support_anchr" class="anchr" name="support"></a>
-                <br><br>
-                <div class="page-header">
-                    <h1>Customer Support</h1>
-                </div>
-                <p style="text-align:justify;text-justify:inter-word;">
-                
-                    We stand by the quality of our work and you'll be very pleased
-                    with our performance and turnaround time. We guarantee everything
-                    we do (<em>except where noted</em>). You can contact us 24 hours
-                    a day, 7 days a week; replies are typically within the hour. 
-                    Resolution is on a case-by-case basis. Yet, we will be responsive,
-                    informative and answer any questions you have.
-                </p>
-            </div>
-            
-            
-            <div class="col-md-1"></div> <!-- spacer -->
-            
-            <div class="col-md-5">
+              <a id="priceSheet" class="button-primary pure-button blue" href="assets/ps/prices-computer.pdf">
+              $ Price Sheet</a>
               
-              <a id="contact_anchr" class="anchr" name="contact"></a>
-              <div class="page-header">
-                <h1>Contact Us</h1>
-              </div>      
-         
-                <ul class="list-group left">
-                    <li class="list-group-item middle no-border">
-                        <i class="fa fa-2x fa-credit-card"></i> Sales: <a href="mailto:sales@csrdevco.com">sales@csrdevco.com</a>
+        </div>        
+        <div class="unit one-of-three">
+              <h3><!--<i class="fa fa-pencil"></i>--> Resume Writing</h3>
+              <ul class="s">
+                <li class="check green">Typeset
+                <li class="check green">Multiple Drafts
+                <li class="check green">Multiple Versions
+                <li class="check green">Cover Letters
+                <li class="check green">Proofreading
+                <li class="check green">Word, PDF versions
+              </ul>
+              <span class="price">$30 - $50</span> usd/hr
+        </div>
+
+        
+    </div> <!-- /grid -->
+
+</div> <!-- /container -->
+
+
+
+
+
+
+<div class="container">
+
+    <div class="grid">
+    
+        <div class="unit one-of-two">
+            <h2 class="section csr1">Support</h2>      
+            We stand by the quality of our work and you'll be very pleased with our 
+            performance and turnaround time. We guarantee everything we do (except where noted). 
+            You can contact us 24 hours a day, 7 days a week; replies are typically within 
+            the hour. Resolution is on a case-by-case basis. Yet, we will be responsive, 
+            informative and answer any questions you have.
+        </div>
+
+        <div class="unit one-of-two">
+              <h2 class="section csr1">Contact Us</h2>                      
+                <ul>
+                    <li class="bullet phone">
+                        815-293-7416
+                    </li>                    
+                    <li class="bullet sales">
+                        <a class="contact" href="mailto:sales@csrdevco.com">sales@csrdevco.com</a>
                     </li>
-                    <li class="list-group-item middle no-border">
-                        <i class="fa fa-2x fa-phone"></i> Support: <a href="mailto:support@csrdevco.com">support@csrdevco.com</a>
+                    <li class="bullet support">
+                        <a class="contact" href="mailto:support@csrdevco.com">support@csrdevco.com</a>
                     </li>
-                    <li class="list-group-item middle no-border">
-                        <i class="fa fa-2x fa-github"></i> bake: <a href="http://gcraig.github.io/bake/">http://gcraig.github.io/bake/</a>
+                    <li class="bullet twitter">
+                        <a class="contact" href="http://www.twitter.com/CSRDev">twitter.com/CSRDev</a>
                     </li>
-                    <li class="list-group-item middle no-border">
-                        <i class="fa fa-2x fa-twitter-square twitterblue"></i> <a href="http://www.twitter.com/CSRDev">http://www.twitter.com/CSRDev</a>
-                    </li>
-                    <li class="list-group-item middle no-border">
-                        <i class="fa fa-quote-left"></i><span class="black"> We get the job done right </span><i class="fa fa-quote-right"></i>      
+                    <li class="bullet bake">
+                        <a class="contact" href="http://gcraig.github.io/bake/">gcraig.github.io/bake/</a>
                     </li>
                 </ul>
-                
-            </div>
-            
-            <div class="col-md-1"></div>
-            
         </div>
 
-        <p>
-        <i class="fa fa-arrow-up"></i> 
-        <a href="#">Back to Top</a>
-        
-        <div class="well">
-          Copyright 2014. CSR Development, Company. All rights reserved.<br>
-          Servicing Will County, and Greater Chicagoland Area, Illinois, U.S.
-        </div>
+    </div> <!-- /grid -->
+
+</div> <!-- /container -->
 
 
-    </div> <!-- /container -->
 
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/holder.js"></script>
-    <script>
 
-      $( document ).ready(function() {
+<div class="unit span-grid footer">
+    <span class="footer-quote">
+        <i class="fa fa-quote-left gray"></i>&nbsp;
+        quality software
+        &nbsp;<i class="fa fa-quote-right gray"></i>                  
+    </span>
+    <p>Copyright 2014. CSR Development, Company. All rights reserved.
+    <p>Servicing Will County, and Greater Chicagoland Area, Illinois, U.S. 
+</div>
 
-         // FIXME: 1 button click handler
-         
-         
-         $("#aboutus").on('click', function(e) {
-             e.preventDefault();
-             $('html, body').animate({
-                 scrollTop: $('#aboutus_anchr').offset().top
-               }, 300, function(){});
-         });
-         
-         $("#services").on('click', function(e) {
-             e.preventDefault();
-             $('html, body').animate({
-                 scrollTop: $('#services_anchr').offset().top
-               }, 300, function(){});
-         });
-         
-         $("#services2").on('click', function(e) {
-             e.preventDefault();
-             $('html, body').animate({
-                 scrollTop: $('#services_anchr').offset().top
-               }, 300, function(){});
-         });
-                  
-         $("#contact").on('click', function(e) {
-             e.preventDefault();
-             $('html, body').animate({
-                 scrollTop: $('#contact_anchr').offset().top
-               }, 300, function(){
-               });
-         });
-          
-         $("#support").on('click', function(e) {
-             e.preventDefault();
-             $('html, body').animate({
-                 scrollTop: $('#support_anchr').offset().top
-               }, 300, function(){
-               });
-         });
-         
-        /*$('.navbar-collapse').on('shown.bs.collapse', function() { console.log('shown'); });
-        $('.navbar-collapse').on('hidden.bs.collapse', function() { console.log('hidden'); });*/
-        $('.navbar-toggle').on('collapse', function() { console.log('shown'); });
-        $('.navbar-toggle').on('collapse', function() { console.log('hidden'); });
-         
-         
-      });
-      
-    </script>
-  </body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        $("#services").click(function() {
+            var aTag = $("a[name='services']");
+            $("html, body").animate({scrollTop: aTag.offset().top},'slow');
+        });
+    });
+</script>
+
+
+</body>
 </html>
