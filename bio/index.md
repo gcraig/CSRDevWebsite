@@ -16,9 +16,9 @@ Over night, I lost my job, my house, my car, and my children. Congress stopped m
 I am a software developer. Yet, despite all that I want to give back. I want to help other deaf people. I want to write accessibility apps on hardware like Android and iOS. I want to write applications that will help people via closed caption and give it all away _**FREE**_. Pay it forward. Can you help me with some donations? I am desperately capable of being extremely productive. I am looking for:
 
 - a Mac laptop
-- 2 cheap Android tablets
-- 2 iPad minis
-- mechanical keyboard 
+- <del>2 cheap Android tablets</del> - I have a lead on two Android phones I can use for hardware testing! Thank you Lisa Lopez!
+- <del>2 iPad minis</del> - I can use iPad tablets/minis, but I have acquired an iPhone 4 and iPad2. I can use these for testing!
+- <del>mechanical keyboard</del> - **<font color="green">GRACIOUSLY</font> Donated by Jeff Atwood from WSAD and Coding Horror**. Please check out his blog, if you have any interest in technology. Thank you, Jeff! [http://blog.codinghorror.com/]() Seriously, mechanical keyboards allow you to really bang out code. It's for serious development. Anyone taking their craft serious, needs serious tools. I recommend Jeff's CODE Mechanical keyboard: [http://codekeyboards.com/]() <br>
 
 to realize my dream for mobility applications. I will graciously accept anything working, refurbished, knocked, dinged, and cost range. I don't care. At the release of the product(s): 3 months, I will donate the tablets and iPads to charity as well (or return them to you directly). The Mac will be needed for bug releases, etc.
 
