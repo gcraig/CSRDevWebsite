@@ -116,7 +116,7 @@ li:before {
 
 .twitter:before {    
 	content: '\f081';
-	color: #55acee;
+  color: #55acee;
 }
 
 .bake:before {    
@@ -126,6 +126,11 @@ li:before {
 .check:before {    
   content: '\f00c';
   color: green;
+}
+
+.csrlink {
+  color: #0000ff;
+  font-weight: bolder;
 }
 
 .price {
@@ -164,7 +169,15 @@ li:before {
 .lightblue {
 	color: #ccccee;
  }
- 
+
+.lightred {
+  color: #eecccc;
+} 
+
+.header p {
+  margin-top: 16px;
+}
+
 .csr {
   color: #FFA54A;
   color: rgb(223, 117, 20);
