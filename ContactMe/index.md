@@ -1,16 +1,12 @@
-<img src="george-craig.png">
+<img src="george-craig.jpg">
 
 #### How to Contact Me
 ***
 #815-293-7416
-> I will respond to your SMS **text messages** with this new number and read your transcribed voicemails. Please delete all previous numbers. I also **_cannot_** receive text photos or answer the phone. Please email or Facebook attachments and photos at the following addresses:
+> I will respond to your text messages to the above number and read your transcribed voicemails. You can safely ignore all previous phone numbers of mine. Please email any photos or attachments to the following address:
 
 ### Email
 > - [georgeacraig@gmail.com](mailto:georgeacraig@gmail.com)
-- [georgeacraig@facebook.com](mailto:georgeacraig@facebook.com)
-
-### Facebook
-> - [www.facebook.com/georgeacraig](https://www.facebook.com/georgeacraig)
 
 ### CSR Development, Co.
 > - [www.csrdevco.com](http://www.csrdevco.com)
@@ -22,9 +18,7 @@
 ### LinkedIn
 - [linkedin.com/in/georgeacraig](http://www.linkedin.com/in/georgeacraig)
 
-### Mailing Address
-> - 715 Belmont Drive, Romeoville, Illinois 60446
-
 ***
 
-#### Regards, George Craig
+#### Regards, 
+George Craig
