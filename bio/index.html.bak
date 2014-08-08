@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>George Craig - CSRDevCo</title>
+<title>index</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -293,7 +293,7 @@ img {
 <body>
 <h2>George Craig - Bio</h2>
 <h3>CSR Development, Co.</h3>
-<p><img src="george-craig.png" /></p>
+<p><img src="george-craig.jpg" /></p>
 <h3>Applications We are Developing</h3>
 <ul>
 <li>
@@ -325,7 +325,7 @@ img {
 <p>At any time I can prove my condition and the progress of my charity work. I plan on publishing all the source code to github.com in the public domain. Monitoring that is easy. <a href="http://github.com/gcraig">http://github.com/gcraig.</a></p>
 <p>Will you please help me by donating either or all of those items? I can prove all of this is true and that I have the passion to help many people in your name. I will certainly remain a loyal customer and push your stores/business/etc. I will also prominently display your name in all my documentation. </p>
 <p>I want to start with two applications. One that allows chatting via Bluetooth so no WiFi (internet) is required, including calls to voice recognition services. The second will be a repository of closed caption files and eventually provide the ability to create captions for new videos. Finally, the third application will display closed captions on broadcasts, remotely, i.e., in movie theaters. etc. Raspberry Pi hardware will help me interface to those signals. </p>
-<p>Connecting the device to a computer and broadcasting that could allow hearing impaired people to follow the movie or video stream in public.</p>
+<p>Connecting the device to a computer and broadcasting that could allow deaf people to follow the movie or video stream in public.</p>
 <p>Please let me know what you think.<br> 
 Sincerely,<br>
 Thank you,</p>

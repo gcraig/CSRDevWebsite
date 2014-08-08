@@ -1,7 +1,7 @@
 ## George Craig - Bio
 ### CSR Development, Co.
 
-![](george-craig.jpg)
+![](george-craig.png)
 
 ### Applications We are Developing
 
@@ -39,7 +39,7 @@ Will you please help me by donating either or all of those items? I can prove al
 
 I want to start with two applications. One that allows chatting via Bluetooth so no WiFi (internet) is required, including calls to voice recognition services. The second will be a repository of closed caption files and eventually provide the ability to create captions for new videos. Finally, the third application will display closed captions on broadcasts, remotely, i.e., in movie theaters. etc. Raspberry Pi hardware will help me interface to those signals. 
 
-Connecting the device to a computer and broadcasting that could allow deaf people to follow the movie or video stream in public.
+Connecting the device to a computer and broadcasting that could allow hearing impaired people to follow the movie or video stream in public.
 
 Please let me know what you think.<br> 
 Sincerely,<br>
